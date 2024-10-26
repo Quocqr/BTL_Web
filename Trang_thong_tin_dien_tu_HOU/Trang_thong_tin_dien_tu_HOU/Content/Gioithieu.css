@@ -1,0 +1,61 @@
+﻿.containerbody-content {
+    margin-top: 70px;
+    padding: 20px;
+    background-color: #fff;
+    text-align: justify;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    overflow: visible;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 10px;
+}
+
+.img_content {
+    margin-right:5px;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.single-content-full {
+    grid-column: span 9;
+    overflow: visible;
+    text-align: justify;
+    line-height: 1.7;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.menu {
+    grid-column: span 3;
+    margin-right: 2%;
+    position: fixed; /* Giữ menu cố định */
+    top: 80px; /* Khoảng cách từ phía trên màn hình */
+    right: 0; /* Khoảng cách từ phía phải màn hình */
+    width: 200px; /* Chiều rộng của menu */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff; /* Màu nền */
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Hiệu ứng đổ bóng */
+}
+
+    .menu a {
+        display: block;
+        width: 100%; /* Chiều rộng 100% của menu */
+        padding: 10px 15px;
+        margin: 10px 0;
+        background-color: #0066cc;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        text-align: center;
+        transition: background-color 0.3s, color 0.3s; /* Hiệu ứng chuyển đổi */
+    }
+
+        .menu a:hover {
+            background-color: #004999; /* Màu nền khi hover */
+            color: #ffcc00; /* Màu chữ khi hover */
+        }

@@ -1,12 +1,104 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ADMIN\\source\\repos\\Trang_thong_tin_dien_tu_HOU\\",
-  "Documents": [],
+  "WorkspaceRootPath": "F:\\BTL_Web\\Trang_thong_tin_dien_tu_HOU\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C19F8828-C02E-4DFC-AFA3-33EF6ECA042C}|Trang_thong_tin_dien_tu_HOU\\Trang_thong_tin_dien_tu_HOU.csproj|f:\\btl_web\\trang_thong_tin_dien_tu_hou\\trang_thong_tin_dien_tu_hou\\gioithieu.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{C19F8828-C02E-4DFC-AFA3-33EF6ECA042C}|Trang_thong_tin_dien_tu_HOU\\Trang_thong_tin_dien_tu_HOU.csproj|solutionrelative:trang_thong_tin_dien_tu_hou\\gioithieu.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C19F8828-C02E-4DFC-AFA3-33EF6ECA042C}|Trang_thong_tin_dien_tu_HOU\\Trang_thong_tin_dien_tu_HOU.csproj|F:\\BTL_Web\\Trang_thong_tin_dien_tu_HOU\\trang_thong_tin_dien_tu_hou\\content\\gioithieu.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C19F8828-C02E-4DFC-AFA3-33EF6ECA042C}|Trang_thong_tin_dien_tu_HOU\\Trang_thong_tin_dien_tu_HOU.csproj|solutionrelative:trang_thong_tin_dien_tu_hou\\content\\gioithieu.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C19F8828-C02E-4DFC-AFA3-33EF6ECA042C}|Trang_thong_tin_dien_tu_HOU\\Trang_thong_tin_dien_tu_HOU.csproj|F:\\BTL_Web\\Trang_thong_tin_dien_tu_HOU\\trang_thong_tin_dien_tu_hou\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C19F8828-C02E-4DFC-AFA3-33EF6ECA042C}|Trang_thong_tin_dien_tu_HOU\\Trang_thong_tin_dien_tu_HOU.csproj|solutionrelative:trang_thong_tin_dien_tu_hou\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C19F8828-C02E-4DFC-AFA3-33EF6ECA042C}|Trang_thong_tin_dien_tu_HOU\\Trang_thong_tin_dien_tu_HOU.csproj|F:\\BTL_Web\\Trang_thong_tin_dien_tu_HOU\\trang_thong_tin_dien_tu_hou\\content\\master.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C19F8828-C02E-4DFC-AFA3-33EF6ECA042C}|Trang_thong_tin_dien_tu_HOU\\Trang_thong_tin_dien_tu_HOU.csproj|solutionrelative:trang_thong_tin_dien_tu_hou\\content\\master.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C19F8828-C02E-4DFC-AFA3-33EF6ECA042C}|Trang_thong_tin_dien_tu_HOU\\Trang_thong_tin_dien_tu_HOU.csproj|F:\\BTL_Web\\Trang_thong_tin_dien_tu_HOU\\trang_thong_tin_dien_tu_hou\\site1.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{C19F8828-C02E-4DFC-AFA3-33EF6ECA042C}|Trang_thong_tin_dien_tu_HOU\\Trang_thong_tin_dien_tu_HOU.csproj|solutionrelative:trang_thong_tin_dien_tu_hou\\site1.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Master.css",
+              "DocumentMoniker": "F:\\BTL_Web\\Trang_thong_tin_dien_tu_HOU\\Trang_thong_tin_dien_tu_HOU\\Content\\Master.css",
+              "RelativeDocumentMoniker": "Trang_thong_tin_dien_tu_HOU\\Content\\Master.css",
+              "ToolTip": "F:\\BTL_Web\\Trang_thong_tin_dien_tu_HOU\\Trang_thong_tin_dien_tu_HOU\\Content\\Master.css",
+              "RelativeToolTip": "Trang_thong_tin_dien_tu_HOU\\Content\\Master.css",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAuwJ4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-24T15:09:43.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Site1.Master",
+              "DocumentMoniker": "F:\\BTL_Web\\Trang_thong_tin_dien_tu_HOU\\Trang_thong_tin_dien_tu_HOU\\Site1.Master",
+              "RelativeDocumentMoniker": "Trang_thong_tin_dien_tu_HOU\\Site1.Master",
+              "ToolTip": "F:\\BTL_Web\\Trang_thong_tin_dien_tu_HOU\\Trang_thong_tin_dien_tu_HOU\\Site1.Master",
+              "RelativeToolTip": "Trang_thong_tin_dien_tu_HOU\\Site1.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-10-24T13:49:33.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Gioithieu.aspx",
+              "DocumentMoniker": "F:\\BTL_Web\\Trang_thong_tin_dien_tu_HOU\\Trang_thong_tin_dien_tu_HOU\\Gioithieu.aspx",
+              "RelativeDocumentMoniker": "Trang_thong_tin_dien_tu_HOU\\Gioithieu.aspx",
+              "ToolTip": "F:\\BTL_Web\\Trang_thong_tin_dien_tu_HOU\\Trang_thong_tin_dien_tu_HOU\\Gioithieu.aspx*",
+              "RelativeToolTip": "Trang_thong_tin_dien_tu_HOU\\Gioithieu.aspx*",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-10-24T14:44:38.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Gioithieu.css",
+              "DocumentMoniker": "F:\\BTL_Web\\Trang_thong_tin_dien_tu_HOU\\Trang_thong_tin_dien_tu_HOU\\Content\\Gioithieu.css",
+              "RelativeDocumentMoniker": "Trang_thong_tin_dien_tu_HOU\\Content\\Gioithieu.css",
+              "ToolTip": "F:\\BTL_Web\\Trang_thong_tin_dien_tu_HOU\\Trang_thong_tin_dien_tu_HOU\\Content\\Gioithieu.css",
+              "RelativeToolTip": "Trang_thong_tin_dien_tu_HOU\\Content\\Gioithieu.css",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-25T09:00:02.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "F:\\BTL_Web\\Trang_thong_tin_dien_tu_HOU\\Trang_thong_tin_dien_tu_HOU\\Global.asax.cs",
+              "RelativeDocumentMoniker": "Trang_thong_tin_dien_tu_HOU\\Global.asax.cs",
+              "ToolTip": "F:\\BTL_Web\\Trang_thong_tin_dien_tu_HOU\\Trang_thong_tin_dien_tu_HOU\\Global.asax.cs",
+              "RelativeToolTip": "Trang_thong_tin_dien_tu_HOU\\Global.asax.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T13:39:08.157Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

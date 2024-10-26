@@ -1,0 +1,40 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Trang_thong_tin_dien_tu_HOU.Site1" %>
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <title><%: Page.Title %></title>
+    <link href="./Content/Master.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <img src="./img/logo.png" alt="Logo" class="logo">
+            <ul>
+                <li><a href="Trangchu.aspx">Trang chủ</a></li>
+                <li><a href="Gioithieu.aspx">Giới thiệu</a></li>
+                <li><a href="Tintuc.aspx">Tin tức</a></li>
+                <li><a href="Lienhe.aspx">Liên Hệ</a></li>
+                <li><a href="Dangky.aspx">Đăng Ký</a></li>
+                <li><a href="Dangnhap.aspx">Đăng Nhập</a></li>
+            </ul>
+            <form action="Timkiem.aspx" method="get" class="search-form">
+                <input type="text" placeholder="Tìm kiếm..." name="query" class="search-input">
+                <button type="submit" class="search-button">Tìm</button>
+            </form>
+        </nav>
+    </header>
+    <asp:ContentPlaceHolder ID="MainContent" runat="server"></asp:ContentPlaceHolder>
+    <footer class="footer">
+        <div class="footer-logo">
+            <img src="./img/logo.png" alt="Logo dưới" class="logo-footer">
+        </div>
+        <div class="footer-content">
+            <h3>Trường Đại học Mở Hà Nội</h3>
+            <p>Địa chỉ: Nhà B101, phố Nguyễn Hiền, phường Bách Khoa, quận Hai Bà Trưng, TP Hà Nội</p>
+            <p>Điện thoại: 024.38682321</p>
+            <p>Email: mhn@hou.edu.vn</p>
+        </div>
+    </footer>
+</body>
+</html>
