@@ -1,0 +1,64 @@
+﻿.main-conten-off {
+    margin-top: 70px;
+    padding: 20px;
+    background-color: #fff;
+    text-align: justify;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    overflow: visible;
+    display:block;
+}
+.main-conten-off h2{
+    color:red;
+}
+.event {
+    display: grid ;
+    grid-template-columns: repeat(3, 1fr);
+    gap:20px;
+}
+.event-class {
+    grid-column: span 1;
+    display: flex;
+    flex-direction: column;
+/*    border: 1px solid #000;*/
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+    .event-class img {
+        max-width: 100%; /* Đảm bảo hình ảnh không vượt quá kích thước của cột */
+        max-height: 200px;
+        margin: 0 auto;
+        border-radius: 10px;
+    }
+            .event-title {
+                font-size: 18px;
+                font-weight: bold;
+                margin: 5px 0;
+            }
+                event-content {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    text-align: center;
+                    margin-top: 10px;
+                }
+                    .read-more {
+                        margin-top: 10px;
+                        color: #007bff;
+                        text-decoration: none;
+                    }
+
+                        .read-more:hover {
+                            text-decoration: underline;
+                        }
+        .Notification {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+    .Notification-class {
+        grid-column: span 1;
+        border: 1px solid #000;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    }
+

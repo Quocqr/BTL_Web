@@ -1,0 +1,89 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "noEmitOnError": true,
+    "removeComments": false,
+    "sourceMap": true,
+    "target": "es5"
+  },
+  "exclude": [
+    "node_modules",
+    "wwwroot"
+  ],
+  "TinTuc": [
+    {
+      "id": "1",
+      "tieu_de": "Khai mạc Giải bóng đá sinh viên Trường Đại học Mở Hà Nội lần thứ IX năm 2024",
+      "img": "./img/img-tintuc/bong-da-ix.jpg",
+      "noi_dung": ""
+    },
+    {
+      "id": "2",
+      "tieu_de": " Tôn vinh nét đẹp công sở của nữ đoàn viên công đoàn, người lao động nhân Ngày Phụ nữ Việt Nam 20/10",
+      "img": "/img/img-tintuc/NPN-20-10-2024.jpg",
+      "noi_dung": ""
+    },
+    {
+      "id": "3",
+      "tieu_de": "Gần 200 cán bộ, giảng viên, sinh viên Trường Đại học Mở Hà Nội tham gia Hội diễn nghệ thuật chào mừng 70 năm giải phóng Thủ đô",
+      "img": "./img/img-tintuc/200-can-bo.jpg",
+      "noi_dung": ""
+    },
+    {
+      "id": "4",
+      "tieu_de": "Ra mắt Ban Chấp hành Đoàn Trường Đại học Mở Hà Nội khóa XI, nhiệm kỳ 2024-2027",
+      "img": "./img/img-tintuc/doan-khoa-xi.jpg",
+      "noi_dung": ""
+    },
+    {
+      "id": "5",
+      "tieu_de": "Mở rộng cơ hội việc làm cho sinh viên trong lĩnh vực thiết kế",
+      "img": "./img/img-tintuc/co-hoi-viec-lam-2024.jpg",
+      "noi_dung": ""
+    },
+    {
+      "id": "6",
+      "tieu_de": "Trường Đại học Mở Hà Nội trang bị kiến thức bổ ích cho tân sinh viên,",
+      "img": "./img/img-tintuc/Tan-sinh-vien-1024.jpg",
+      "noi_dung": ""
+    }
+  ],
+  "Thong_bao": [
+    {
+      "id": "1",
+      "tieu_de": "Trường Đại học Mở Hà Nội công bố quyết định Công nhận thí sinh trúng tuyển đào tạo Trình độ Tiến sĩ và Quyết định Công nhận nghiên cứu sinh",
+      "img": "./img/img_thongbao/tuyen_sinh_NC_sinh.png",
+      "noi_dung": ""
+    },
+    {
+      "id": "2",
+      "tieu_de": "Thông tin Luận án Tiến sĩ ngành Ngôn ngữ Anh của nghiên cứu sinh Hoàng Thị Ngọc Lan",
+      "img": "./img/img_thongbao/Luan_an_anh.png",
+      "noi_dung": ""
+    },
+    {
+      "id": "3",
+      "tieu_de": "Thông tin Luận án Tiến sĩ ngành Ngôn ngữ Anh của nghiên cứu sinh Nguyễn Thị Thùy Linh",
+      "img": "./img/img_thongbao/nguyen_thuy_linh.png",
+      "noi_dung": ""
+    },
+    {
+      "id": "4",
+      "tieu_de": "Kết quả thi tuyển Phương án kiến trúc Dự án Xây dựng cơ sở Trường Đại học Mở Hà Nội tại xã Long Hưng, huyện Văn Giang, tỉnh Hưng Yên",
+      "img": "./img/img_thongbao/phuong_an_thiet_ke_truong.jpg",
+      "noi_dung": ""
+    },
+    {
+      "id": "5",
+      "tieu_de": "Hà Nội - Thủ đô ngàn năm văn hiến, anh hùng, vì hòa bình",
+      "img": "./img/img_thongbao/ha_noi_TD_van_hien.png",
+      "noi_dung": ""
+    },
+    {
+      "id": "6",
+      "tieu_de": "Trường Đại học Mở Hà Nội chung tay đảm bảo trật tự an toàn giao thông, phòng chống ma túy và phòng chống bạo lực học đường",
+      "img": "./img/img_thongbao/ATGT.jpg",
+      "noi_dung": ""
+    }
+  ]
+}
