@@ -91,6 +91,8 @@
     <Content Include="img\logo.png" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Class\Post.cs" />
+    <Compile Include="Class\User.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -109,7 +111,7 @@
     <Compile Include="Site1.Master.designer.cs">
       <DependentUpon>Site1.Master</DependentUpon>
     </Compile>
-    <Compile Include="TinTuc.cs" />
+    <Compile Include="Class\TinTuc.cs" />
     <Compile Include="Tintuc.aspx.cs">
       <DependentUpon>Tintuc.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
