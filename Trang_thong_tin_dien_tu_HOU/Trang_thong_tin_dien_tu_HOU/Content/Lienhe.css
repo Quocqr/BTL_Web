@@ -1,0 +1,157 @@
+﻿body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*header {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}*/
+
+.header-logo {
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+    nav ul li {
+        margin: 0 15px;
+    }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+.header-search {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+    .header-search input {
+        padding: 5px;
+        border: none;
+        border-radius: 3px 0 0 3px;
+    }
+
+    .header-search button {
+        padding: 5px 10px;
+        border: none;
+        background-color: #333;
+        color: white;
+        border-radius: 0 3px 3px 0;
+        cursor: pointer;
+    }
+
+.contact-main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.contact-info, .contact-map {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin-left: 20px;
+}
+
+.contact-info {
+    margin-left: 0;
+}
+
+iframe {
+    width: 100%;
+    height: 450px;
+    border: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.formBox {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.inputBox {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+    .inputBox input[type="text"], .inputBox input[type="email"], .inputBox textarea {
+        width: 100%;
+        padding: 10px;
+        border: none;
+        border-bottom: 1px solid #ccc;
+        background: transparent;
+        outline: none;
+        font-size: 16px;
+    }
+
+        .inputBox input[type="text"]:focus, .inputBox input[type="email"]:focus, .inputBox textarea:focus {
+            border-bottom: 2px solid #4CAF50;
+        }
+
+    .inputBox span {
+        position: absolute;
+        top: 10px;
+        left: 0;
+        pointer-events: none;
+        transition: 0.5s;
+    }
+
+    .inputBox input[type="text"]:focus ~ span, .inputBox input[type="email"]:focus ~ span, .inputBox textarea:focus ~ span, .inputBox input[type="text"]:valid ~ span, .inputBox input[type="email"]:valid ~ span, .inputBox textarea:valid ~ span {
+        top: -20px;
+        left: 0;
+        color: #4CAF50;
+        font-size: 12px;
+    }
+
+    .inputBox input[type="submit"] {
+        width: 100%;
+        padding: 10px;
+        background: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background 0.3s;
+    }
+
+        .inputBox input[type="submit"]:hover {
+            background: #45a049;
+        }

@@ -13,6 +13,7 @@
             <img src="./img/logo.png" alt="Logo" class="logo">
             <ul class="nav-list" id="nav-list">
                 <li><a href="Trangchu.aspx">Trang chủ</a></li>
+                <li><a href="Quanly.aspx">Quản lý</a></li>
                 <li><a href="Gioithieu.aspx">Giới thiệu</a></li>
                 <li><a href="Tintuc.aspx">Tin tức</a></li>
                 <li><a href="Lienhe.aspx">Liên Hệ</a></li>

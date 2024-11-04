@@ -1,0 +1,222 @@
+﻿/* Mặc định dành cho desktop */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer; /* Con trỏ trở thành tay khi di chuột */
+    font-size: 24px; /* Kích thước chữ lớn hơn */
+    color: white; /* Màu chữ */
+    margin-right: auto;
+}
+
+
+/* Tin tức và hình ảnh */
+.news-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.post-image {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+}
+
+
+/* Thanh điều hướng */
+.navbar {
+    background-color: #0066cc;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+/* Logo trong thanh điều hướng */
+.logo {
+    height: 50px; /* Chiều cao logo */
+    width: auto; /* Tự động điều chỉnh chiều rộng để giữ tỉ lệ */
+    margin-right: 20px;
+}
+/*logo ở fotter*/
+.logo-footer {
+    height: 200px; /* Kích thước khác cho logo ở footer */
+    width: auto;
+    margin-right: 500px; /* Tùy chỉnh khoảng cách so với nội dung bên phải */
+}
+
+/* Danh sách điều hướng */
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+    .navbar ul li {
+        margin: 0 20px;
+    }
+
+        /* Liên kết điều hướng */
+        .navbar ul li a {
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+            .navbar ul li a:hover {
+                background-color: #575757;
+                color: yellow;
+            }
+
+/* Phần nội dung chính */
+.main-content {
+    margin-top: 70px; /* Để tránh bị che bởi thanh điều hướng */
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 100px; /* Khoảng cách để tránh bị che bởi thanh điều hướng */
+    text-align: center; /* Căn giữa tiêu đề */
+}
+
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+    .nav-list li {
+        margin-left: 20px;
+    }
+
+        .nav-list li a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            display: block;
+        }
+
+            .nav-list li a:hover {
+                background-color: #ddd;
+                color: black;
+            }
+
+
+/* Định dạng footer */
+.footer {
+    background-color: #0066cc; /* Màu nền */
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    top: 500px;
+    width: 100%;
+    margin-top: 30px;
+    border-top: 2px solid #cccccc;
+    display: flex;
+    justify-content: flex-end; /* Đẩy nội dung về bên phải */
+}
+
+/* Nội dung trong footer */
+.footer-content {
+    color: black;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: left; /* Căn lề phải */
+    max-width: 1000px; /* Giới hạn chiều rộng để không bị xuống dòng không cần thiết */
+    padding-right: 20px; /* Giảm khoảng cách với lề phải */
+}
+
+    .footer-content h3 {
+        margin: 0;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .footer-content p {
+        margin: 5px 0;
+    }
+/* Thanh tìm kiếm */
+.search-form {
+    display: flex;
+    align-items: center;
+    margin-left: 50px; /* Đẩy thanh tìm kiếm về bên phải */
+}
+
+.search-input {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 200px; /* Độ rộng của thanh tìm kiếm */
+    margin-right: 10px; /* Khoảng cách giữa ô tìm kiếm và nút */
+}
+
+.search-button {
+    background-color: white; /* Màu nền của nút */
+    color: black; /* Màu chữ của nút */
+    padding: 8px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+    .search-button:hover {
+        background-color: yellow; /* Màu nền của nút khi hover */
+    }
+
+
+
+/* Responsive thiết kế cho mobile */
+@media (max-width: 1024px) {
+    .hamburger {
+        display: block;
+    }
+
+    .nav-list {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #0066cc;
+    }
+
+        .nav-list.active {
+            display: flex;
+        }
+
+        .nav-list li {
+            width: 100%;
+        }
+
+            .nav-list li a {
+                padding: 10px;
+                color: white;
+                text-align: left;
+                border-bottom: 1px solid #ddd;
+            }
+
+    .logo-footer {
+        height: 100px;
+        margin-right: auto;
+    }
+}
