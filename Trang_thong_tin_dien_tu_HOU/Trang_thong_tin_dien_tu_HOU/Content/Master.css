@@ -13,7 +13,7 @@
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 1000;
+/*    z-index: 1000;*/
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -93,7 +93,9 @@
                 color: black;
             }
 
-
+.menu-icon{
+    display:none;
+}
 /* Định dạng footer */
 .footer {
     background-color: #0066cc; /* Màu nền */
@@ -156,3 +158,62 @@
     .search-button:hover {
         background-color: yellow; /* Màu nền của nút khi hover */
     }
+.nav-list-moble{
+    display:none;
+}
+@media (max-width: 991px) {
+    .navbar {
+        justify-content: space-between; /* Đảm bảo không gian được phân bổ giữa các mục */
+        position: relative; /* Thêm thuộc tính này để z-index hoạt động */
+        /*z-index: 1;*/ /* Hoặc một giá trị nhỏ hơn so với nav-list-moble */
+    }
+    #nav-list {
+        display: none; /* Ẩn danh sách điều hướng */
+    }
+    /* Căn giữa .search-form */
+    .search-form {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .menu-icon {
+        display: flex;
+        
+        
+/*        margin-right: 5%;*/
+    }
+        .menu-icon-img {
+            height: 30px; /* Chiều cao của biểu tượng menu */
+            width: auto; /* Tự động điều chỉnh chiều rộng để giữ tỉ lệ */
+            cursor: pointer; /* Hiệu ứng con trỏ khi di chuột qua biểu tượng */
+        }
+    .menu-icon-img{
+        display:flex;
+    }
+    .nav-list-moble {
+        position: relative;
+/*        z-index: 1002;*/
+    }
+
+    .menu-icon {
+        display: flex;
+/*        position: relative;*/
+        align-items: end;
+        margin-right: 10%;
+        /*z-index: 1003;*/ /* Add z-index here */
+    }
+
+        .menu-icon .nav-list-moble #nav-list-moble-menu {
+            position: absolute;
+            top: 100%;
+            right: 0;
+            flex-direction: column;
+            background-color: #0066cc;
+            padding: 15px 0;
+            list-style: none;
+            width: 200px;
+            border: 1px solid #393737;
+            z-index: 1000;
+        }
+
+}
+

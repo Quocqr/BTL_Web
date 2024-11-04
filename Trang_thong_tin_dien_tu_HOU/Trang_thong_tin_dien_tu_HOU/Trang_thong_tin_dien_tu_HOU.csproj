@@ -78,6 +78,7 @@
     <Content Include="img\img-tintuc\bong-da-ix.jpg" />
     <Content Include="img\img-tintuc\co-hoi-viec-lam-2024.jpg" />
     <Content Include="img\img-tintuc\doan-khoa-xi.jpg" />
+    <Content Include="img\menu.png" />
     <Content Include="img\img-tintuc\NPN-20-10-2024.jpg" />
     <Content Include="img\img-tintuc\Tan-sinh-vien-1024.jpg" />
     <Content Include="img\img_thongbao\ATGT.jpg" />
@@ -86,6 +87,7 @@
     <Content Include="img\img_thongbao\nguyen_thuy_linh.png" />
     <Content Include="img\img_thongbao\phuong_an_thiet_ke_truong.jpg" />
     <Content Include="img\img_thongbao\tuyen_sinh_NC_sinh.png" />
+    <Content Include="Scripts\Master.js" />
     <Content Include="Tintuc.aspx" />
     <Content Include="Web.config" />
     <Content Include="img\logo.png" />
@@ -137,7 +139,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="file-txt\tin-tuc\" />
-    <Folder Include="Scripts\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

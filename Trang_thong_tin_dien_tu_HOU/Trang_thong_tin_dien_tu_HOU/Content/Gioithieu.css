@@ -9,6 +9,8 @@
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     gap: 10px;
+    position: relative; /* Thêm thuộc tính này để z-index hoạt động */
+    z-index: 2; /* Hoặc một giá trị nhỏ hơn so với nav-list-moble */
 }
 
 .img_content {
@@ -59,3 +61,13 @@
             background-color: #004999; /* Màu nền khi hover */
             color: #ffcc00; /* Màu chữ khi hover */
         }
+@media (max-width: 991px){
+    .menu {
+        display: none;
+        z-index: 999;
+    }
+    .single-content-full {
+        grid-column: span 12;
+    }
+    
+}

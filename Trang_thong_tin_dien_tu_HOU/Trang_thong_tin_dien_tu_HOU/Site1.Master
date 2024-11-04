@@ -4,13 +4,14 @@
 <head runat="server">
     <title><%: Page.Title %></title>
     <link href="./Content/Master.css" rel="stylesheet" type="text/css" />
+    <script src="Scripts/Master.js"  ></script>
     <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
 </head>
 <body>
     <header>
         <nav class="navbar">
             <img src="./img/logo.png" alt="Logo" class="logo">
-            <ul>
+            <ul class="nav-list" id="nav-list">
                 <li><a href="Trangchu.aspx">Trang chủ</a></li>
                 <li><a href="Gioithieu.aspx">Giới thiệu</a></li>
                 <li><a href="Tintuc.aspx">Tin tức</a></li>
@@ -22,6 +23,21 @@
                 <input type="text" placeholder="Tìm kiếm..." name="query" class="search-input">
                 <button type="submit" class="search-button">Tìm</button>
             </form>
+            <div class="menu-icon">
+                <ul class="nav-list-moble">
+               <li><img class="menu-icon-img" src="./img/menu.png" alt="Menu Icon">
+                     <ul id="nav-list-moble-menu">
+                        <li><a href="Trangchu.aspx">Trang chủ</a></li>
+                        <li><a href="Gioithieu.aspx">Giới thiệu</a></li>
+                        <li><a href="Tintuc.aspx">Tin tức</a></li>
+                        <li><a href="Lienhe.aspx">Liên Hệ</a></li>
+                        <li><a href="Dangky.aspx">Đăng Ký</a></li>
+                        <li><a href="Dangnhap.aspx">Đăng Nhập</a></li>
+                      </ul>
+                   </li>
+                </ul>
+            </div>
+            
         </nav>
     </header>
     <asp:ContentPlaceHolder ID="MainContent" runat="server"></asp:ContentPlaceHolder>
