@@ -1,17 +1,20 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Trang_thong_tin_dien_tu_HOU.Site1" %>
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="BTL_Web.Site1" %>
 <!DOCTYPE html>
 <html>
 <head runat="server">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><%: Page.Title %></title>
-    <link href="./Content/Master.css" rel="stylesheet" type="text/css" />
-    <script src="Scripts/Master.js"  ></script>
+    <link href="Master.css" rel="stylesheet" type="text/css" />
     <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
+
 </head>
 <body>
     <header>
         <nav class="navbar">
-            <img src="./img/logo.png" alt="Logo" class="logo">
-            <ul class="nav-list" id="nav-list">
+            <img src="logo.jpg" alt="Logo" class="logo">
+            <div class="hamburger" onclick="toggleMenu()">☰</div>
+            <ul class="nav-list"> <!-- Thêm class nav-list cho ul -->
                 <li><a href="Trangchu.aspx">Trang chủ</a></li>
                 <li><a href="Quanly.aspx">Quản lý</a></li>
                 <li><a href="Gioithieu.aspx">Giới thiệu</a></li>
@@ -24,27 +27,14 @@
                 <input type="text" placeholder="Tìm kiếm..." name="query" class="search-input">
                 <button type="submit" class="search-button">Tìm</button>
             </form>
-            <div class="menu-icon">
-                <ul class="nav-list-moble">
-               <li><img class="menu-icon-img" src="./img/menu.png" alt="Menu Icon">
-                     <ul id="nav-list-moble-menu">
-                        <li><a href="Trangchu.aspx">Trang chủ</a></li>
-                        <li><a href="Gioithieu.aspx">Giới thiệu</a></li>
-                        <li><a href="Tintuc.aspx">Tin tức</a></li>
-                        <li><a href="Lienhe.aspx">Liên Hệ</a></li>
-                        <li><a href="Dangky.aspx">Đăng Ký</a></li>
-                        <li><a href="Dangnhap.aspx">Đăng Nhập</a></li>
-                      </ul>
-                   </li>
-                </ul>
-            </div>
-            
         </nav>
     </header>
+    
     <asp:ContentPlaceHolder ID="MainContent" runat="server"></asp:ContentPlaceHolder>
+
     <footer class="footer">
         <div class="footer-logo">
-            <img src="./img/logo.png" alt="Logo dưới" class="logo-footer">
+            <img src="logo2.png" alt="Logo dưới" class="logo-footer">
         </div>
         <div class="footer-content">
             <h3>Trường Đại học Mở Hà Nội</h3>
@@ -53,5 +43,12 @@
             <p>Email: mhn@hou.edu.vn</p>
         </div>
     </footer>
+
+    <!-- JavaScript toggle menu -->
+    <script>
+        function toggleMenu() {
+            document.querySelector('.nav-list').classList.toggle('active');
+        }
+    </script>
 </body>
 </html>
