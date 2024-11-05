@@ -1,21 +1,46 @@
-﻿body {
-    font-family: sans-serif;
-    background-color: #f0f0f0; /* Màu nền */
+/* Mặc định dành cho desktop */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f0f0f0;
     margin: 0;
     padding: 0;
     height: 100vh;
 }
+
+.hamburger {
+    display: none;
+    cursor: pointer; /* Con trỏ trở thành tay khi di chuột */
+    font-size: 24px; /* Kích thước chữ lớn hơn */
+    color: white; /* Màu chữ */
+    margin-right: auto;
+}
+
+
+/* Tin tức và hình ảnh */
+.news-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.post-image {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+}
+
 
 /* Thanh điều hướng */
 .navbar {
     background-color: #0066cc;
     overflow: hidden;
     position: fixed;
-    top: 0;
     width: 100%;
-/*    z-index: 1000;*/
+    top: 0;
+    z-index: 1000;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
     padding: 0 20px;
 }
@@ -33,18 +58,16 @@
     margin-right: 500px; /* Tùy chỉnh khoảng cách so với nội dung bên phải */
 }
 
-
 /* Danh sách điều hướng */
 .navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    display: flex;
     justify-content: center;
 }
 
     .navbar ul li {
-        margin: 0 35px;
+        margin: 0 20px;
     }
 
         /* Liên kết điều hướng */
@@ -68,7 +91,12 @@
     padding: 20px;
     text-align: center;
 }
-/* Căn chỉnh danh sách điều hướng */
+
+h1 {
+    margin-top: 100px; /* Khoảng cách để tránh bị che bởi thanh điều hướng */
+    text-align: center; /* Căn giữa tiêu đề */
+}
+
 .nav-list {
     list-style-type: none;
     margin: 0;
@@ -93,16 +121,14 @@
                 color: black;
             }
 
-.menu-icon{
-    display:none;
-}
+
 /* Định dạng footer */
 .footer {
     background-color: #0066cc; /* Màu nền */
     padding: 20px;
     position: relative;
     bottom: 0;
-    top: 100px;
+    top: 500px;
     width: 100%;
     margin-top: 30px;
     border-top: 2px solid #cccccc;
@@ -158,62 +184,64 @@
     .search-button:hover {
         background-color: yellow; /* Màu nền của nút khi hover */
     }
-.nav-list-moble{
-    display:none;
+
+
+
+/* Container cho các nút bấm */
+.button-container {
+    display: flex; /* Sử dụng flexbox để căn giữa các nút */
+    justify-content: center; /* Căn giữa các nút */
+    gap: 15px; /* Khoảng cách giữa các nút */
 }
-@media (max-width: 991px) {
-    .navbar {
-        justify-content: space-between; /* Đảm bảo không gian được phân bổ giữa các mục */
-        position: relative; /* Thêm thuộc tính này để z-index hoạt động */
-        /*z-index: 1;*/ /* Hoặc một giá trị nhỏ hơn so với nav-list-moble */
+
+    /* Nút bấm */
+    .button-container button {
+        padding: 10px 20px; /* Độ dày của nút */
+        font-size: 16px; /* Kích thước chữ cho nút */
+        color: white; /* Màu chữ */
+        background-color:#8aed4d; /* Màu nền cho nút */
+        border: none; /* Không có viền */
+        border-radius: 5px; /* Bo góc cho nút */
+        cursor: pointer; /* Con trỏ trở thành tay khi di chuột */
+        transition: background-color 0.3s; /* Hiệu ứng chuyển màu nền khi hover */
     }
-    #nav-list {
-        display: none; /* Ẩn danh sách điều hướng */
+
+        /* Hiệu ứng hover cho nút */
+        .button-container button:hover {
+            background-color: #0056b3; /* Màu nền khi hover */
+        }
+
+
+/* Responsive thiết kế cho mobile */
+@media (max-width: 1024px) {
+    .hamburger {
+        display: block;
     }
-    /* Căn giữa .search-form */
-    .search-form {
-        margin-left: auto;
+
+    .nav-list {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #0066cc;
+    }
+
+        .nav-list.active {
+            display: flex;
+        }
+
+        .nav-list li {
+            width: 100%;
+        }
+
+            .nav-list li a {
+                padding: 10px;
+                color: white;
+                text-align: left;
+                border-bottom: 1px solid #ddd;
+            }
+
+    .logo-footer {
+        height: 100px;
         margin-right: auto;
     }
-    .menu-icon {
-        display: flex;
-        
-        
-/*        margin-right: 5%;*/
-    }
-        .menu-icon-img {
-            height: 30px; /* Chiều cao của biểu tượng menu */
-            width: auto; /* Tự động điều chỉnh chiều rộng để giữ tỉ lệ */
-            cursor: pointer; /* Hiệu ứng con trỏ khi di chuột qua biểu tượng */
-        }
-    .menu-icon-img{
-        display:flex;
-    }
-    .nav-list-moble {
-        position: relative;
-/*        z-index: 1002;*/
-    }
-
-    .menu-icon {
-        display: flex;
-/*        position: relative;*/
-        align-items: end;
-        margin-right: 10%;
-        /*z-index: 1003;*/ /* Add z-index here */
-    }
-
-        .menu-icon .nav-list-moble #nav-list-moble-menu {
-            position: absolute;
-            top: 100%;
-            right: 0;
-            flex-direction: column;
-            background-color: #0066cc;
-            padding: 15px 0;
-            list-style: none;
-            width: 200px;
-            border: 1px solid #393737;
-            z-index: 1000;
-        }
-
 }
-
